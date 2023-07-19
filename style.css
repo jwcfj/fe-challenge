@@ -1,0 +1,30 @@
+.wrapper{
+    position: relative;
+}
+.form{
+    text-align: center;
+    z-index: 1;
+}
+.container{
+    vertical-align: middle;
+}
+.inside{
+    display: inline-block;
+    text-align: left;
+}
+
+.inputconfig{
+    transform: scale(0.9);
+}
+
+.textinputconfig{
+    font-size: small;
+}
+
+.termsandconditions{
+    position: absolute;
+    z-index: 2;
+    background: lightgreen;
+    width: 20%;
+    height: 80%;
+}

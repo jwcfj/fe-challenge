@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <title>Formulário Genérico</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="sign-up-screen.js"></script>
+</head>
+<body>
+<div class="form">
+    <div class="termsandconditions">
+        <p >teste</p>
+    </div>
+<h1>Formulário Genérico</h1>
+  
+<form action="/action_page.php">
+
+<div class="container">
+    <div class="inside">
+        <label for="fname">Nome:</label><br>
+        <input type="text" id="fname" name="fname">
+    </div>
+    <div class="inside">
+        <label for="sname">Sobrenome:</label><br>
+        <input type="text" id="sname" name="sname">
+    </div>
+</div>
+
+<div class="container">
+    <div class="inside">
+        <label for="uemail">Email:</label><br>
+        <input type="text" id="uemail" name="uemail">
+    </div>
+    <div class="inside">
+        <label for="cpf">CPF:</label><br>
+        <input type="text" id="cpf" name="cpf">
+    </div>
+</div>
+  
+<div class="container">
+    <div class="inside">
+        <label class="textinputconfig" for="masculino">Gênero:</label><br>
+        <input class="inputconfig" type="radio" id="masculino" name="fav_language" value="Masculino">
+        <label class="textinputconfig" for="feminino">Masculino</label>
+        <input class="inputconfig" type="radio" id="feminino" name="fav_language" value="Feminino">
+        <label class="textinputconfig" for="feminino">Feminino</label>
+    </div>
+    <div class="inside">    
+        <label for="birthday">Data de Nascimento:</label><br>
+        <input type="date" id="birthday" name="birthday">
+    </div>
+</div>
+  
+<div class="container">
+    <div class="inside">
+        <label for="adress">Endereço:</label><br>
+        <input type="text" id="adress" name="adress">
+    </div>
+    <div class="inside">
+        <label for="uphone">Número de telefone:</label><br>
+        <input type="text" id="uphone" name="uphone">
+    </div>
+</div>
+
+<div class="container">
+    <div class="inside">
+        <label for="profession">Profissão:</label><br>
+        <input type="text" id="profession" name="profession">
+    </div>
+    <div class="inside">
+        <label for="additionalinfo">Informações adicionais:</label><br>
+        <input type="text" id="additionalinfo" name="additionalinfo">
+    </div>
+</div>
+<div class="container">
+    <div class="inside">
+        <label for="states">Estado:</label><br>
+                <select id="states" name="states" onclick="selectedIndex==previousIndex? 1: getCities()">
+                </select>
+        </select>
+    </div>
+    <div class="inside">
+        <label for="counties">Cidade:</label><br>
+            <select id="counties" name="counties"></select>
+        </select>
+    </div>
+</div>
+<div class="container">
+    <div class="inside">
+        <label for="passwrd">Senha:</label><br>
+        <input type="text" id="passwrd" name="passwrd">
+    </div>
+    <div class="inside">
+        <label for="passwrdconf">Confirmação de senha:</label><br>
+        <input type="text" id="passwrdconf" name="passwrdconf">
+    </div>
+</div>
+
+<div class="container">
+    <div class="inside">
+        <p>Leia e concorde com os termos e condições antes de prosseguir.</p>
+    </div>
+    <div class="inside">
+        <input class="inputconfig" type="checkbox" id="termsinput" name="fav_language" value=true>
+        <label class="textinputconfig" for="termsinput">Aceito os termos e condições</label>
+    </div>
+</div>
+<input type="submit" value="Enviar">
+<input type="reset" value="Limpar">
+</form>
+</div>
+
+
+</body>
+</html>
